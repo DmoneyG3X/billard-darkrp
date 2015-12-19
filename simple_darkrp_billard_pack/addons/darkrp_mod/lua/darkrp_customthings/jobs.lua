@@ -432,3 +432,17 @@ TEAM_SNOWMEMBER = DarkRP.createJob("Snow Gang Member", {
     candemote = false,
     category = "Gangsters",
 })
+TEAM_HOBOSUPPLIER = DarkRP.createJob("Hobo Supplier", {
+    color = Color(0, 255, 150, 255),
+    model = {"models/player/corpse1.mdl"},
+    description = [[You are a hobo supplier.
+You sell crappy weapons and items to hobos.]],
+    weapons = {"weapon_bugbait,"},
+    command = "hobosupplier",
+    max = 2,
+    salary = 10,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Citizens",
+})
